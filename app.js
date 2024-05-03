@@ -6,7 +6,7 @@ const app = express();
 const cors = require('cors')
 
 const PORT = 5003;
-const MONGO_URL = process.env.MONGO_URL;
+const MONGO_URL = "mongodb+srv://arun:1234qwer@cluster0.fjoxwv9.mongodb.net/employee";
 
 //mongodb connection
 mongoose
